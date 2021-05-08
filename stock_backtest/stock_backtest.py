@@ -5,7 +5,6 @@ import os
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 import yfinance as yf
-from pprint import pprint
 
 
 class Backtest(object):
@@ -248,7 +247,7 @@ class Backtest(object):
             "{}/{}-{}-{}.json".format(self.data_dir, self.ticker, self.start, self.end),
             "w",
         ) as f:
-            pprint(r, stream=f, sort_dicts=False)
+            f.write(str(r))
         return r
 
     def sma(self, *, period: int, price: str = "C") -> pd.DataFrame:

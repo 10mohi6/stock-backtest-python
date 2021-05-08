@@ -2,12 +2,12 @@
 
 [![PyPI](https://img.shields.io/pypi/v/stock-backtest)](https://pypi.org/project/stock-backtest/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![codecov](https://codecov.io/gh/10mohi6/stock-backtest-python/branch/main/graph/badge.svg?token=ZFgiyy2cc2)](undefined)
+[![codecov](https://codecov.io/gh/10mohi6/stock-backtest-python/branch/main/graph/badge.svg?token=ODOV9LETK1)](https://codecov.io/gh/10mohi6/stock-backtest-python)
 [![Build Status](https://travis-ci.com/10mohi6/stock-backtest-python.svg?branch=main)](https://travis-ci.com/10mohi6/stock-backtest-python)
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/stock-backtest)](https://pypi.org/project/stock-backtest/)
 [![Downloads](https://pepy.tech/badge/stock-backtest)](https://pepy.tech/project/stock-backtest)
 
-stock-backtest is a python library for stock technical analysis backtest on Python 3.6 and above.
+stock-backtest is a python library for stock technical analysis backtest on Python 3.7 and above.
 
 
 ## Installation

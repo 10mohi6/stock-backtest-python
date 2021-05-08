@@ -20,7 +20,7 @@ def scope_module():
             self.take_profit = 10
 
     yield MyBacktest(
-        ticker="9983.T",
+        "9983.T",
         start="2010-01-01",
         data_dir="data",
     )
