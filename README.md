@@ -57,8 +57,8 @@ class MyBacktest(Backtest):
 bt = MyBacktest(
     "AAPL",  # ticker
     shares=100,  # number of shares (default=1)
-    start="2010-01-01",  # (default="")
-    end="2020-01-01",  # (default="")
+    start="2010-01-01",  # start date (default="")
+    end="2020-01-01",  # end date (default="")
     data_dir="data",  # data directory (default=.)
 )
 pprint(bt.run(), sort_dicts=False)
