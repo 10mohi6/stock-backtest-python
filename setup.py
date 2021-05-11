@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="stock-backtest",
-    version="0.1.0",
+    version="0.1.1",
     description="stock-backtest is a python library \
         for stock technical analysis backtest on Python 3.7 and above.",
     long_description=open("README.md").read(),
@@ -11,7 +11,7 @@ setup(
     author="10mohi6",
     author_email="10.mohi.6.y@gmail.com",
     url="https://github.com/10mohi6/stock-backtest-python",
-    keywords="stock python backtest technical analysis",
+    keywords="stock python backtest technical analysis trading strategy",
     packages=find_packages(),
     install_requires=[
         "pandas",
